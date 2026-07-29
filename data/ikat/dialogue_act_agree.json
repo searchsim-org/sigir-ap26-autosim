@@ -1,0 +1,27 @@
+{
+ "n_real": 300,
+ "agreement": 0.393,
+ "cohens_kappa": 0.224,
+ "per_judge": {
+  "gemma4-31b-it": {
+   "tv_default": 0.457,
+   "tv_weight": 0.067,
+   "real_dist": {
+    "NEW": 0.16,
+    "REFINE": 0.68,
+    "FEEDBACK": 0.043,
+    "CLARIFY": 0.117
+   }
+  },
+  "qwen3-next-80b-a3b-instruct": {
+   "tv_default": 0.337,
+   "tv_weight": 0.067,
+   "real_dist": {
+    "NEW": 0.167,
+    "REFINE": 0.18,
+    "FEEDBACK": 0.1,
+    "CLARIFY": 0.553
+   }
+  }
+ }
+}

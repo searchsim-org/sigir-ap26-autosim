@@ -1,0 +1,43 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "n_turns": 82,
+ "n_weight_utts": 164,
+ "n_default_utts": 164,
+ "emb_weight": {
+  "auc": 0.377,
+  "sd": 0.077,
+  "perm_p_vs_0.5": 0.027
+ },
+ "emb_default": {
+  "auc": 0.83,
+  "sd": 0.082,
+  "perm_p_vs_0.5": 0.0
+ },
+ "power_real_vs_perturbed": {
+  "auc": 0.992,
+  "sd": 0.006,
+  "perm_p_vs_0.5": 0.0
+ },
+ "xlmr_weight_grouped": {
+  "auc": 0.511,
+  "sd": 0.058
+ },
+ "xlmr_default_grouped": {
+  "auc": 0.943,
+  "sd": 0.038
+ },
+ "diversity_weight": {
+  "distinct1": 0.28,
+  "distinct2": 0.539,
+  "mean_pairwise_jaccard": 0.043,
+  "length_entropy": 3.073,
+  "mean_words": 12.3
+ },
+ "diversity_real": {
+  "distinct1": 0.439,
+  "distinct2": 0.84,
+  "mean_pairwise_jaccard": 0.044,
+  "length_entropy": 3.11,
+  "mean_words": 13.3
+ }
+}

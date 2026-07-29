@@ -1,0 +1,40 @@
+{
+ "model": "mistralai/Mistral-7B-Instruct-v0.3",
+ "traj": [
+  {
+   "arm": "base_default",
+   "local_auc": 0.882,
+   "octen_auc": 0.884
+  },
+  {
+   "arm": "base_promptstyle",
+   "local_auc": 0.874,
+   "octen_auc": 0.878
+  },
+  {
+   "arm": "warm_sft",
+   "local_auc": 0.472,
+   "octen_auc": 0.385
+  },
+  {
+   "arm": "adv_it1",
+   "local_auc": 0.446,
+   "octen_auc": 0.491
+  },
+  {
+   "arm": "adv_it2",
+   "local_auc": 0.425,
+   "octen_auc": 0.473
+  },
+  {
+   "arm": "adv_it3",
+   "local_auc": 0.469,
+   "octen_auc": 0.524
+  },
+  {
+   "arm": "adv_it4",
+   "local_auc": 0.496,
+   "octen_auc": 0.434
+  }
+ ]
+}

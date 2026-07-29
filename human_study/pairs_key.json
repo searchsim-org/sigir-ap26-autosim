@@ -1,0 +1,482 @@
+[
+ {
+  "id": "default_17",
+  "condition": "default",
+  "history": "",
+  "a": "Sure thing! In Zurich, you can check out the Swiss Fashion Museum if you're into fashion. For hiking, the Eiger Trail is quite popular. And if you're looking to cool off, there's a nice indoor pool at",
+  "b": "Visit.",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_21",
+  "condition": "weight",
+  "history": "",
+  "a": "How is that different from the other city you suggested?",
+  "b": "How is it different from Copenhagen?",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_13",
+  "condition": "weight",
+  "history": "",
+  "a": "Can you tell me how they differ?",
+  "b": "Can you compare them?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_26",
+  "condition": "weight",
+  "history": "",
+  "a": "Thank you. What about the main memory?",
+  "b": "Thank you. What is its RAM? I will use it for my work. Specifically, video editing and graphic design. Also, I do not want to exceed my budget.",
+  "real_side": "A"
+ },
+ {
+  "id": "default_3",
+  "condition": "default",
+  "history": "",
+  "a": "Yes, please.",
+  "b": "Sure thing! Treatment toners are formulated to address specific skin concerns like acne, hyperpigmentation, or anti-aging. They often contain active ingredients such as AHAs, BHAs, salicylic acid, nia",
+  "real_side": "A"
+ },
+ {
+  "id": "default_19",
+  "condition": "default",
+  "history": "",
+  "a": "Thanks for the information, it was very helpful!",
+  "b": "Thanks a lot! That's really helpful info on those medications. Just to clarify, are there any natural ways to boost vitamin C levels without relying on food sources? And what about my son's tonsils? D",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_22",
+  "condition": "weight",
+  "history": "",
+  "a": "Yes, but how does it work exactly?",
+  "b": "Yes, but how do they work?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_17",
+  "condition": "weight",
+  "history": "",
+  "a": "Maybe you can squeeze in a quick one.",
+  "b": "Ok, but it takes me 20 minutes to get to the gym, so basically I'm wasting time if I only workout for 15 minute",
+  "real_side": "B"
+ },
+ {
+  "id": "default_29",
+  "condition": "default",
+  "history": "",
+  "a": "Sounds good! For ingredient substitutes, you could try using whole grains instead of refined ones, swapping out butter for avocado or nut butters, and adding more herbs and spices to enhance flavors. ",
+  "b": "Olive oil seems interesting! How about other ingredients??",
+  "real_side": "B"
+ },
+ {
+  "id": "default_16",
+  "condition": "default",
+  "history": "",
+  "a": "Sure! To lower the pH of your soil naturally, you can add materials like coffee grounds, crushed eggshells, or finely ground dolomite lime. Coffee grounds and eggshells are acidic and can help lower t",
+  "b": "Yes, please.",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_11",
+  "condition": "weight",
+  "history": "",
+  "a": "That sounds reasonable. I'll stick to business casual then. Now, what do you think I should do if I don't know the answer?",
+  "b": "That sounds reasonable. I'll stick to business casual then. Now, how should I handle a situation if I don't know the answer to a question?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_10",
+  "condition": "weight",
+  "history": "",
+  "a": "That's great. But is the Plus better?",
+  "b": "That's great. But is the Plus better for me?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_9",
+  "condition": "default",
+  "history": "",
+  "a": "Hey, could you tell me what \"broad spectrum\" means when it comes to sunscreens? I'm trying to pick one that works well for my oily acne-prone skin.",
+  "b": "What does the last term you mentioned mean?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_8",
+  "condition": "default",
+  "history": "",
+  "a": "Not all fragrances contain alcohol. For example, some Eaux Fraîches don't use alcohol at all, relying instead on a light base of water and essential oils. Parfums typically do contain alcohol for a st",
+  "b": "Are all of them made of alcohol?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_18",
+  "condition": "weight",
+  "history": "",
+  "a": "Oh great, do you have some WMAs to suggest?",
+  "b": "Oh great, do you have some WMAs to suggest to us?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_9",
+  "condition": "weight",
+  "history": "",
+  "a": "Can you tell me more about the first option?",
+  "b": "Hmm, I see. I think I'm more interested in Iceland. Can you tell me more about the eco-friendly accommodations there?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_19",
+  "condition": "weight",
+  "history": "",
+  "a": "No, but I have the device to do it. What are the best ranges?",
+  "b": "No, but I have the device to do it. What are the optimal pHs?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_18",
+  "condition": "default",
+  "history": "",
+  "a": "Could you tell me more about the size of the FC Bayern Munich fan base and their history of winning trophies?",
+  "b": "No, about the fan base of the biggest club from here.",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_12",
+  "condition": "weight",
+  "history": "",
+  "a": "It seems like a good read, Thanks.",
+  "b": "Atomic Habits seems like a good read, thanks.",
+  "real_side": "A"
+ },
+ {
+  "id": "default_28",
+  "condition": "default",
+  "history": "",
+  "a": "Got it! Without cheese, lasagne isn't an option then. Dolmades or grilled meat could work for us then. What kind of grilled meat do you think we could make?",
+  "b": "But my husband is on a diet and cannot eat cheese.",
+  "real_side": "B"
+ },
+ {
+  "id": "default_27",
+  "condition": "default",
+  "history": "",
+  "a": "The longevity of a fragrance depends on a few key factors. Firstly, the base notes of a scent—like musk or vanilla—tend to last longer because they are heavier and more stable. Secondly, the alcohol p",
+  "b": "What factors make it long-lasting?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_20",
+  "condition": "weight",
+  "history": "",
+  "a": "Hey, I'm concerned about my mobility and falling within my house, can you help me?",
+  "b": "Hey, I'm also concerned about my mobility and falling. Can you give me more specific recommendations?",
+  "real_side": "A"
+ },
+ {
+  "id": "default_7",
+  "condition": "default",
+  "history": "",
+  "a": "Black garlic has a sweeter, more caramelized taste compared to raw garlic. It's great for adding depth and complexity to your dishes without being too strong. What kind of recipes are you thinking of ",
+  "b": "I mean black garlic.",
+  "real_side": "B"
+ },
+ {
+  "id": "default_20",
+  "condition": "default",
+  "history": "",
+  "a": "Hey, that's great to hear! As someone who's interested in soccer again, considering some key factors could help you pick a team. Think about which leagues are popular, like La Liga or Serie A. Also, c",
+  "b": "Hey, I've started watching football again, and I find it interesting. I believe I would like to support a team now, what factors do you think I should consider?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_21",
+  "condition": "default",
+  "history": "",
+  "a": "Knowing the exact time to replace the battery depends on how much it affects your laptop's performance. Some signs like slow load times or lagging apps could indicate it's time to consider getting a n",
+  "b": "Ok I understand, is there also a quick way to know when to change it? Or should I also go to a specialist to estimate the battery life of my PC?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_7",
+  "condition": "weight",
+  "history": "",
+  "a": "No I am good with the playstyle for now, thank you. At the beginning you also mentioned location, can you give me some clubs around here?",
+  "b": "No, I am good with the first option. And location too, can you suggest some teams nearby?",
+  "real_side": "A"
+ },
+ {
+  "id": "default_13",
+  "condition": "default",
+  "history": "",
+  "a": "How about their battery?",
+  "b": "Sure! The Galaxy S22 has a battery capacity of around 4000mAh, while the Note 10 had a 3500mAh. The Xiaomi 12 has a 4600mAh",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_27",
+  "condition": "weight",
+  "history": "",
+  "a": "About this model, yes, please.",
+  "b": "I would like to know about its specs, please.",
+  "real_side": "A"
+ },
+ {
+  "id": "default_24",
+  "condition": "default",
+  "history": "",
+  "a": "By the way, where are iPhones made? I'm trying to make an informed decision based on ethical consumption.",
+  "b": "Thanks for that information. The difference doesn't seem too much though. By the way, where are they made?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_25",
+  "condition": "weight",
+  "history": "",
+  "a": "I'm looking for a new perfume. Can you?",
+  "b": "I'm looking for a new perfume. Can you help me?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_23",
+  "condition": "default",
+  "history": "",
+  "a": "Sure thing! The city bike is perfect for exploring a city without breaking a sweat. It’s designed to be lightweight, comfortable, and has smaller gears for navigating through the city streets. Plus, t",
+  "b": "Interesting. Can you tell me more about the bike you suggested earlier to me?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_0",
+  "condition": "default",
+  "history": "",
+  "a": "Thanks, I like the train option, do you have suggestions of potential destinations for me?",
+  "b": "Sure! For eco-friendly destinations in Europe from London, you could consider places like Copenhagen in Denmark, Prague in the Czech Republic, or even Amsterdam in the Netherlands. They're all known f",
+  "real_side": "A"
+ },
+ {
+  "id": "default_6",
+  "condition": "default",
+  "history": "",
+  "a": "What are the common symptoms?",
+  "b": "Sure! Here are some common symptoms of both grief and depression:",
+  "real_side": "A"
+ },
+ {
+  "id": "default_26",
+  "condition": "default",
+  "history": "",
+  "a": "Ok, interesting. How about the socials?",
+  "b": "Sure thing! Social symptoms of depression can include withdrawing from social activities, losing interest in hobbies or things they used to enjoy, feeling lonely, and avoiding social situations.",
+  "real_side": "A"
+ },
+ {
+  "id": "default_12",
+  "condition": "default",
+  "history": "",
+  "a": "Hmm, no, alligator is too expensive. The other one you mentioned would interest me though. Is it included in the license? What about my father?",
+  "b": "Nope, the alligator license doesn’t seem to be part of the regular hunting license. Wondering if the hog hunting license comes with a rifle hunting license too for my dad who’s retired from the Army? ",
+  "real_side": "A"
+ },
+ {
+  "id": "default_2",
+  "condition": "default",
+  "history": "",
+  "a": "Sure thing! When choosing indoor plants, think about the lighting conditions in your home—some thrive in direct sunlight, while others prefer shade. Consider your space too; smaller pots work well in ",
+  "b": "Yes, can you give me some general advice on how to select a few new species?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_4",
+  "condition": "weight",
+  "history": "",
+  "a": "Can my dogs help me?",
+  "b": "Can my dogs assist me too?",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_29",
+  "condition": "weight",
+  "history": "",
+  "a": "Nice. How does the bigger one fare?",
+  "b": "Nice. How does X1 compare to Porsche?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_0",
+  "condition": "weight",
+  "history": "",
+  "a": "Yes.",
+  "b": "Yes, how does S22 Ultra fare against the others?",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_16",
+  "condition": "weight",
+  "history": "",
+  "a": "I don't want to wait unnecessary time. In how many months can I start growing them if we are in December?",
+  "b": "I don't want to wait unnecessary time.",
+  "real_side": "B"
+ },
+ {
+  "id": "default_1",
+  "condition": "default",
+  "history": "",
+  "a": "Thanks, I will have a look at the website later. I used to hunt lots of animals in my previous state, but I may want to change, how about other animals that could be interesting?",
+  "b": "That sounds interesting! Besides deer, what other animals are commonly hunted in Florida? I'm curious about the options there.",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_15",
+  "condition": "weight",
+  "history": "",
+  "a": "No, I will keep this in my cubby hole, my cat will not have access.",
+  "b": "No, I will keep this in my cubbyhole, my cat will not have access.",
+  "real_side": "A"
+ },
+ {
+  "id": "default_4",
+  "condition": "default",
+  "history": "",
+  "a": "Sure! Different types of fragrance include floral, woody, fruity, oriental, and spicy. Each type has its unique scent profile. Do you have a preference for any of these?",
+  "b": "I want to buy a fragrance. Can you tell me the different types?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_15",
+  "condition": "default",
+  "history": "",
+  "a": "How far is the first hotel from the Egyptian Museum?",
+  "b": "How far is the Nile Ritz-Carlton from the Egyptian Museum?",
+  "real_side": "A"
+ },
+ {
+  "id": "default_25",
+  "condition": "default",
+  "history": "",
+  "a": "Are there any vegetarian-friendly supplements or vitamins that could help with fatigue and lack of energy?",
+  "b": "Lack of energy and feeling fatigue.",
+  "real_side": "B"
+ },
+ {
+  "id": "default_22",
+  "condition": "default",
+  "history": "",
+  "a": "Sure thing! There are a few Wildlife Management Areas in Florida that might be interesting. One of them is the Big Cypress National Preserve, which offers a variety of wildlife viewing and hiking oppo",
+  "b": "Oh great, do you have some WMAs to suggest to us?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_3",
+  "condition": "weight",
+  "history": "",
+  "a": "No, I meant the other one.",
+  "b": "No, I mean the circuit training workout.",
+  "real_side": "B"
+ },
+ {
+  "id": "default_5",
+  "condition": "default",
+  "history": "",
+  "a": "Sure thing! How about visiting some lesser-known spots like the Lake District in England or the coastal cities of Wales? They're scenic and less touristy. Alternatively, there's always Germany; perhap",
+  "b": "I have already been to Amsterdam and Venice, and Barcelona is too hot for me.",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_28",
+  "condition": "weight",
+  "history": "",
+  "a": "Are all of these types made with alcohol?",
+  "b": "Are all of them made of alcohol?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_24",
+  "condition": "weight",
+  "history": "",
+  "a": "How their zinc content?",
+  "b": "Of course in terms of zinc, I don't want to compare their taste!",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_6",
+  "condition": "weight",
+  "history": "",
+  "a": "Can you compare the scent of the first two?",
+  "b": "Can you also give me a comparison between the two? I like both floral and citrus scents.",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_23",
+  "condition": "weight",
+  "history": "",
+  "a": "Tell me more about the last one, please... I am curious about the price too.",
+  "b": "What are the benefits of installing them? I'm also curious about the price.",
+  "real_side": "A"
+ },
+ {
+  "id": "default_10",
+  "condition": "default",
+  "history": "",
+  "a": "If I were to fall in the bathroom, especially being at risk and living alone, what kind of safety measures could I put in place?",
+  "b": "In case I still fall, what solutions exist?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_8",
+  "condition": "weight",
+  "history": "",
+  "a": "As if the world is an equal playing field, what about the poor?",
+  "b": "As if the world is an equal playing field, what about those poorer nations?",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_2",
+  "condition": "weight",
+  "history": "",
+  "a": "Thanks but what kind of beer?",
+  "b": "Thanks, but you didn't mention any beer.",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_1",
+  "condition": "weight",
+  "history": "",
+  "a": "How many bananas?",
+  "b": "How many bananas contain the same content of magnesium?",
+  "real_side": "B"
+ },
+ {
+  "id": "weight_5",
+  "condition": "weight",
+  "history": "",
+  "a": "Ok, nice. Let's compare the hardware.",
+  "b": "Ok, nice. Let's compare the hardware too.",
+  "real_side": "A"
+ },
+ {
+  "id": "weight_14",
+  "condition": "weight",
+  "history": "",
+  "a": "How far is it from there?",
+  "b": "How far is the first hotel from the Egyptian Museum?",
+  "real_side": "B"
+ },
+ {
+  "id": "default_11",
+  "condition": "default",
+  "history": "",
+  "a": "Sure thing! How do dark and milk chocolates fare in terms of zinc content?",
+  "b": "Of course in terms of zinc, I don't want to compare their taste!",
+  "real_side": "B"
+ },
+ {
+  "id": "default_14",
+  "condition": "default",
+  "history": "",
+  "a": "Using Greek yogurt instead of heavy cream does change the texture a bit, but the taste is pretty similar. It's a good swap for reducing fat and calories while still giving that creamy feel.",
+  "b": "Using Greek yogurt instead of heavy cream sounds interesting. But won't it change the taste of the dish?",
+  "real_side": "B"
+ }
+]

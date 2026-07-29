@@ -1,0 +1,36 @@
+{
+ "models": [
+  "qwen3-next-80b-a3b-instruct",
+  "gemma4-31b-it"
+ ],
+ "results": {
+  "qwen3-next-80b-a3b-instruct": {
+   "default_sim": {
+    "acc": 0.593,
+    "n": 300,
+    "abstain": 0,
+    "p_vs_chance": 0.001
+   },
+   "weight_sim": {
+    "acc": 0.503,
+    "n": 300,
+    "abstain": 0,
+    "p_vs_chance": 0.908
+   }
+  },
+  "gemma4-31b-it": {
+   "default_sim": {
+    "acc": 0.89,
+    "n": 300,
+    "abstain": 0,
+    "p_vs_chance": 0.0
+   },
+   "weight_sim": {
+    "acc": 0.483,
+    "n": 300,
+    "abstain": 0,
+    "p_vs_chance": 0.564
+   }
+  }
+ }
+}

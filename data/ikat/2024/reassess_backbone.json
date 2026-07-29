@@ -1,0 +1,10 @@
+{
+ "year": "2024",
+ "n": 116,
+ "model": "gemma4-31b-it",
+ "tau_qwen": 0.909,
+ "p_qwen": 0.0,
+ "tau_deepseek": 0.909,
+ "p_deepseek": 0.0,
+ "tau_agreement": 0.939
+}

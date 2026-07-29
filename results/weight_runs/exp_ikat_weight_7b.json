@@ -1,0 +1,40 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "traj": [
+  {
+   "arm": "base_default",
+   "local_auc": 0.942,
+   "octen_auc": 0.927
+  },
+  {
+   "arm": "base_promptstyle",
+   "local_auc": 0.891,
+   "octen_auc": 0.816
+  },
+  {
+   "arm": "warm_sft",
+   "local_auc": 0.517,
+   "octen_auc": 0.432
+  },
+  {
+   "arm": "adv_it1",
+   "local_auc": 0.498,
+   "octen_auc": 0.434
+  },
+  {
+   "arm": "adv_it2",
+   "local_auc": 0.588,
+   "octen_auc": 0.541
+  },
+  {
+   "arm": "adv_it3",
+   "local_auc": 0.502,
+   "octen_auc": 0.464
+  },
+  {
+   "arm": "adv_it4",
+   "local_auc": 0.526,
+   "octen_auc": 0.538
+  }
+ ]
+}

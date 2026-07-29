@@ -1,0 +1,10 @@
+held-out system-level Kendall-tau over GEPA self-improvement cycles (system-tau selection) (start=weak, cal=88, hold=88, K=2, N=3, 12 systems):
+  full        : [0.606, 0.606, 0.606]
+  static      : [0.606, 0.606, 0.606]
+  no-calib    : [0.606, 0.626, 0.667]
+
+start criteria:
+Rate how satisfied you are with these passages.
+
+evolved criteria (final):
+Rate how satisfied you are with these passages.

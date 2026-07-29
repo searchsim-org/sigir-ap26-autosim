@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the accompanying paper."
+title: "AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation"
+type: software
+version: "0.0.1"
+license: MIT
+keywords:
+  - user simulation
+  - conversational search
+  - information retrieval evaluation
+  - self-improving agents
+  - evaluation bias
+# TODO(camera-ready): replace the anonymous author entity with the real author list
+# (family-names / given-names), and add repository-code, doi, and url.
+authors:
+  - name: "Anonymous Author(s)"
+preferred-citation:
+  type: conference-paper
+  title: "AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation"
+  authors:
+    - name: "Anonymous Author(s)"
+  collection-title: "Proceedings of SIGIR-AP 2026 (under review)"
+  year: 2026
+  notes: "Under double-blind review; author list and DOI withheld until camera-ready."

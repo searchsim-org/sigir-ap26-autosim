@@ -1,0 +1,188 @@
+{
+  "seeds": [
+    13,
+    29,
+    47,
+    71,
+    101,
+    211,
+    307,
+    401,
+    503,
+    601,
+    701,
+    809
+  ],
+  "results": [
+    {
+      "full": [
+        0.462181362306728,
+        0.8165584415584416,
+        0.8165584415584416
+      ],
+      "nocal": [
+        0.462181362306728,
+        0.63891577928364,
+        0.7029520295202951
+      ],
+      "static": 0.462181362306728,
+      "final_style": "Write concisely and naturally, averaging 13-15 words per message. Avoid over-explaining; keep 10% of responses polite and ensure 8% are very terse (3 words or fewer)."
+    },
+    {
+      "full": [
+        0.6440422322775264,
+        0.6404874746106974,
+        0.6404874746106974
+      ],
+      "nocal": [
+        0.6440422322775264,
+        0.5449275362318841,
+        0.6026443980514962
+      ],
+      "static": 0.6440422322775264,
+      "final_style": "Keep messages brief and concise, averaging around 13 words. Avoid over-explaining; use short, fragmented queries often, and limit politeness to only occasional interactions."
+    },
+    {
+      "full": [
+        0.5207100591715977,
+        0.6070038910505836,
+        0.8473177441540578
+      ],
+      "nocal": [
+        0.5207100591715977,
+        0.7168458781362007,
+        0.6604303086997193
+      ],
+      "static": 0.5207100591715977,
+      "final_style": "Average 12 words per message. Use a natural tone where about 12% of responses are polite and 5% are very short phrases of 3 words or fewer."
+    },
+    {
+      "full": [
+        0.6520280573345532,
+        0.5829145728643217,
+        0.8433420365535248
+      ],
+      "nocal": [
+        0.6520280573345532,
+        0.4636803874092009,
+        0.5455587392550143
+      ],
+      "static": 0.6520280573345532,
+      "final_style": "Increase average message length to 12 words while maintaining a terse, direct style. Ensure approximately 12% of responses include polite phrasing and 5% are very short (3 words or fewer)."
+    },
+    {
+      "full": [
+        0.5358126721763086,
+        0.6956933270231898,
+        0.7651515151515151
+      ],
+      "nocal": [
+        0.5358126721763086,
+        0.5226586102719033,
+        0.5585851142225498
+      ],
+      "static": 0.5358126721763086,
+      "final_style": "Keep messages concise, averaging 12.7 words. Use politeness (e.g., \"please,\" \"thanks\") in only 18% of interactions, and ensure 5% of responses are very short (3 words or fewer)."
+    },
+    {
+      "full": [
+        0.5664,
+        0.6607773851590105,
+        0.8515406162464986
+      ],
+      "nocal": [
+        0.5664,
+        0.7303182579564489,
+        0.6794425087108014
+      ],
+      "static": 0.5664,
+      "final_style": "Aim for an average of 12 words per message. Occasionally include polite phrasing and ensure about 8% of your responses are very short, terse phrases of 3 words or fewer."
+    },
+    {
+      "full": [
+        0.441588785046729,
+        0.7091875474563402,
+        0.7091875474563402
+      ],
+      "nocal": [
+        0.441588785046729,
+        0.6783410138248848,
+        0.7410008779631254
+      ],
+      "static": 0.441588785046729,
+      "final_style": "Write concisely, averaging 15 words per message. Keep most responses direct and blunt, ensuring about 10% are polite and 8% are very short (3 words or fewer)."
+    },
+    {
+      "full": [
+        0.6360026472534747,
+        0.6569620253164556,
+        0.8557435440783616
+      ],
+      "nocal": [
+        0.6360026472534747,
+        0.5066854327938072,
+        0.5720053835800808
+      ],
+      "static": 0.6360026472534747,
+      "final_style": "Write concisely, averaging 13 words per message. Ensure 8% of responses are very short (3 words or fewer) and 15% include polite language."
+    },
+    {
+      "full": [
+        0.5522750955192776,
+        0.5242587601078167,
+        0.8155759870200109
+      ],
+      "nocal": [
+        0.5522750955192776,
+        0.46423562412342223,
+        0.5438829787234042
+      ],
+      "static": 0.5522750955192776,
+      "final_style": "Write informally with an average length of 13-14 words. Occasionally include politeness markers (about 5% of the time) and occasionally use very short, terse queries of 3 words or fewer (about 2% of the time)."
+    },
+    {
+      "full": [
+        0.5868312757201647,
+        0.6301615798922802,
+        0.8088714938030007
+      ],
+      "nocal": [
+        0.5868312757201647,
+        0.6941391941391941,
+        0.6759517177344475
+      ],
+      "static": 0.5868312757201647,
+      "final_style": "Keep messages concise, averaging 14 words. Use a direct tone, but include occasional politeness and ensure roughly 10% of responses are very short (3 words or fewer)."
+    },
+    {
+      "full": [
+        0.6060606060606061,
+        0.5334407735697019,
+        0.6160900375156315
+      ],
+      "nocal": [
+        0.6060606060606061,
+        0.6053639846743295,
+        0.6407766990291263
+      ],
+      "static": 0.6060606060606061,
+      "final_style": "Aim for an average of 11 words per message. Incorporate polite phrasing in about 12% of interactions and use very short phrases (3 words or fewer) in 5% of messages."
+    },
+    {
+      "full": [
+        0.5653047555257871,
+        0.5653047555257871,
+        0.5653047555257871
+      ],
+      "nocal": [
+        0.5653047555257871,
+        0.6436781609195402,
+        0.6446518305814788
+      ],
+      "static": 0.5653047555257871,
+      "final_style": "Write naturally as this user would."
+    }
+  ],
+  "p_full_vs_static": 0.00021144585455189655,
+  "p_nocal_vs_static": 0.08226843954198974
+}

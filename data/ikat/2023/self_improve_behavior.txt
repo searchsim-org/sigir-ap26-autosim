@@ -1,0 +1,7 @@
+held-out behavioral CSG (style realism; higher = closer to real users) over cycles (cal=40, hold=40, K=2, N=5):
+  full     : [0.457, 0.709, 0.702]
+  static   : [0.457, 0.457, 0.457]
+  no-calib : [0.457, 0.876, 0.688]
+
+final style instruction:
+Average 14 words per message. Occasionally include polite phrasing (approx. 10% of the time) and occasionally use very short, terse phrases of 3 words or fewer (approx. 8% of the time).

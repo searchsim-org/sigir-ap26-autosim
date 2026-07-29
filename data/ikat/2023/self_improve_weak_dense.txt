@@ -1,0 +1,10 @@
+held-out system-level Kendall-tau over GEPA self-improvement cycles (dense selection) (start=weak, cal=40, hold=40, K=2, N=5, 12 systems):
+  full        : [0.424, 0.424, 0.424]
+  static      : [0.424, 0.424, 0.424]
+  no-calib    : [0.424, 0.473, 0.504]
+
+start criteria:
+Rate how satisfied you are with these passages.
+
+evolved criteria (final):
+Rate how satisfied you are with these passages.

@@ -1,0 +1,18 @@
+14-system pool (12 constructed + 2 real official*), 176 turns
+system                   nDCG@5     cond  AutoSim
+rrf(resolved)            0.2871   0.3432   0.6318
+splade(resolved)         0.2098   0.2952   0.6608
+bm25_rm3(manual)*        0.2891   0.2891   0.5051
+bm25(resolved)           0.2250   0.2759   0.5531
+rrf+rerank               0.1242   0.2284   0.5935
+bm25+rerank              0.1072   0.1997   0.5060
+splade+rerank            0.0926   0.1987   0.6040
+splade(ptkb)             0.0900   0.1481   0.5528
+rrf(ptkb)                0.0660   0.1334   0.5057
+splade(ptkb)+rerank      0.0504   0.1053   0.5463
+splade(raw)              0.0620   0.0962   0.3344
+bm25(raw)                0.0880   0.0946   0.2767
+bm25(ptkb)               0.0354   0.0576   0.2886
+bm25_rm3(auto)*          0.0332   0.0332   0.1545
+Kendall tau (AutoSim, condensed nDCG@5) = +0.648 (p=0.001)  system-bootstrap 95% CI [+0.262, +0.907]
+Kendall tau (AutoSim, raw nDCG@5      ) = +0.495 (p=0.014)  system-bootstrap 95% CI [+0.089, +0.831]

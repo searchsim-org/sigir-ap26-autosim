@@ -1,0 +1,10 @@
+CROSS-CORPUS: TREC CAsT 2020 over MS MARCO (BM25 pool), 208 turns
+system             nDCG@5     cond  AutoSim
+bm25+rm3(manual)   0.1334   0.1501   0.4264
+bm25(manual)       0.1247   0.1389   0.4740
+bm25+rm3(auto)     0.0982   0.1111   0.3168
+bm25(auto)         0.0895   0.0979   0.3627
+bm25+rm3(raw)      0.0601   0.0666   0.1909
+bm25(raw)          0.0462   0.0518   0.2361
+Kendall tau (AutoSim, condensed nDCG@5) = +0.600 (p=0.136)  system-bootstrap 95% CI [-0.091,+1.000]  (N=6 systems)
+Kendall tau (AutoSim, raw nDCG@5      ) = +0.600 (p=0.136)  system-bootstrap 95% CI [-0.091,+1.000]  (N=6 systems)

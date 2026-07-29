@@ -1,0 +1,27 @@
+{
+ "n": 300,
+ "distribution": {
+  "real": {
+   "NEW": 0.16,
+   "REFINE": 0.68,
+   "FEEDBACK": 0.043,
+   "CLARIFY": 0.117
+  },
+  "default_sim": {
+   "NEW": 0.137,
+   "REFINE": 0.25,
+   "FEEDBACK": 0.233,
+   "CLARIFY": 0.38
+  },
+  "weight_sim": {
+   "NEW": 0.123,
+   "REFINE": 0.747,
+   "FEEDBACK": 0.043,
+   "CLARIFY": 0.087
+  }
+ },
+ "tv_from_real": {
+  "default_sim": 0.453,
+  "weight_sim": 0.067
+ }
+}

@@ -1,0 +1,16 @@
+system                   nDCG@5 cond_nDCG  AutoSim
+splade(resolved)         0.2675    0.3343   0.7069
+rrf(resolved)            0.2804    0.3252   0.6681
+splade+rerank            0.1482    0.2509   0.6573
+bm25(resolved)           0.1718    0.2308   0.5526
+rrf+rerank               0.1303    0.2281   0.5957
+bm25+rerank              0.0957    0.1844   0.5129
+splade(ptkb)             0.1008    0.1519   0.5138
+splade(ptkb)+rerank      0.0521    0.1209   0.5095
+rrf(ptkb)                0.0644    0.1186   0.4474
+splade(raw)              0.0240    0.0313   0.2491
+bm25(ptkb)               0.0180    0.0311   0.2905
+bm25(raw)                0.0164    0.0236   0.1681
+Kendall-tau(AutoSim, condensed nDCG@5  ) = +0.909 (p=0.000)  concordance 95% CI [0.89, 1.00]
+Kendall-tau(AutoSim, raw nDCG@5        ) = +0.848 (p=0.000)  concordance 95% CI [0.85, 0.98]
+(12 systems, 116 turns; 0 skipped)

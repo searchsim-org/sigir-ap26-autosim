@@ -1,0 +1,8 @@
+Behavioral self-improvement over 12 seeds (cal=40, hold=40, K=2, N=4)
+  held-out CSG at final cycle:
+    full (gated)   mean=0.761 SD=0.103  range=[0.565,0.856]
+    no-calib       mean=0.631 SD=0.066  range=[0.544,0.741]
+    static         mean=0.564 SD=0.067
+  best-over-cycles CSG: full mean=0.762 SD=0.102  no-calib mean=0.659 SD=0.061
+  reliability: full SD=0.103 vs no-calib SD=0.066  (gate does NOT reduce final-cycle variance)
+  paired t-test vs static (n=12 seeds): full p=0.0002, no-calib p=0.0823

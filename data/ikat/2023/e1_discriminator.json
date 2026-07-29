@@ -1,0 +1,9 @@
+{
+ "auc": {
+  "default": 0.919,
+  "naive_terse": 0.948,
+  "oracle_stats": 0.877,
+  "loop_final": 0.852
+ },
+ "n": 120
+}

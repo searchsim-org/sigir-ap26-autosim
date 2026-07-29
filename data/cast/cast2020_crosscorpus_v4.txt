@@ -1,0 +1,20 @@
+CROSS-CORPUS v4: CAsT 2020 / MS MARCO, 15-system pool (10 lexical + 5 neural rerank), 208 turns
+system                   nDCG@5     cond  AutoSim
+bm25+rerank(manual)      0.1099   0.1561   0.4587 [neural]
+bm25+rm3(manual)         0.1334   0.1501   0.4274
+bm25(manual)             0.1247   0.1389   0.4738
+bm25+rm3(auto)           0.0982   0.1111   0.3250
+bm25+rerank(auto)        0.0675   0.0981   0.3512 [neural]
+bm25(auto)               0.0895   0.0979   0.3627
+bm25+rm3(prev1)          0.0671   0.0759   0.2471
+bm25(prev1)              0.0558   0.0666   0.2548
+bm25+rm3(raw)            0.0601   0.0666   0.1909
+bm25+rm3(allprev)        0.0542   0.0616   0.2361
+bm25+rerank(prev1)       0.0379   0.0613   0.2550 [neural]
+bm25(allprev)            0.0525   0.0595   0.2606
+bm25+rerank(raw)         0.0412   0.0575   0.2130 [neural]
+bm25+rerank(allprev)     0.0347   0.0559   0.2276 [neural]
+bm25(raw)                0.0462   0.0518   0.2361
+Kendall tau (AutoSim, condensed nDCG@5, N=15) = +0.581 (p=0.002)  system-bootstrap 95% CI [+0.278,+0.789]
+Kendall tau (AutoSim, raw nDCG@5      , N=15) = +0.600 (p=0.001)  system-bootstrap 95% CI [+0.261,+0.856]
+Kendall tau on the 5 neural rerank systems only (condensed) = +0.800 (p=0.083)

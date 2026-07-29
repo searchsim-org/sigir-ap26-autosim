@@ -1,0 +1,21 @@
+{
+ "results": {
+  "default": {
+   "lex_auc": 0.996,
+   "emb_auc": 0.925
+  },
+  "loop_final": {
+   "lex_auc": 0.936,
+   "emb_auc": 0.881
+  },
+  "fewshot": {
+   "lex_auc": 0.947,
+   "emb_auc": 0.887
+  },
+  "fewshot_opt": {
+   "lex_auc": 0.947,
+   "emb_auc": 0.887
+  }
+ },
+ "final_style": "Write naturally as this user would."
+}

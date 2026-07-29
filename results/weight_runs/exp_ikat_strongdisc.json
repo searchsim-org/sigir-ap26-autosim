@@ -1,0 +1,7 @@
+{
+ "n_turns": 82,
+ "auc_default": 0.975,
+ "auc_weight": 0.405,
+ "std_default": 0.012,
+ "std_weight": 0.087
+}

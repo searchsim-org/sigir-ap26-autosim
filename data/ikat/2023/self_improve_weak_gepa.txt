@@ -1,0 +1,10 @@
+held-out sim-to-real Kendall-tau over GEPA-style self-improvement cycles (start=weak, cal=20, hold=20, K=3, N=5, 12 systems):
+  full        : [0.473, 0.473, 0.473, 0.473]
+  static      : [0.473, 0.473, 0.473, 0.473]
+  no-calib    : [0.473, 0.697, 0.657, 0.697]
+
+start criteria:
+Rate how satisfied you are with these passages.
+
+evolved criteria (final):
+Rate how satisfied you are with these passages.

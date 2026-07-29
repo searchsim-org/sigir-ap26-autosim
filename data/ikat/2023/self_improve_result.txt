@@ -1,0 +1,7 @@
+held-out sim-to-real Kendall-tau over self-improvement cycles (cal=30, hold=30, K=4, 12 systems):
+  full        : [0.657, 0.697, 0.697, 0.697, 0.697]
+  static (P0) : [0.657, 0.657, 0.657, 0.657, 0.657]
+  no-calib    : [0.657, 0.718, 0.748, 0.636, 0.697]
+
+evolved criteria (final):
+Considering who YOU are, judge how well these passages let you answer your question. Reward passages that specifically and faithfully address it; discount tangential or keyword-only matches.

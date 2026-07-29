@@ -1,0 +1,11 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "arm": "few_shot_prompt",
+ "n_exemplars": 8,
+ "emb_auc": 0.806,
+ "emb_sd": 0.068,
+ "emb_perm_p_vs_0.5": 0.0,
+ "xlmr_grouped_auc": 0.94,
+ "xlmr_sd": 0.04,
+ "mean_words": 12.3
+}

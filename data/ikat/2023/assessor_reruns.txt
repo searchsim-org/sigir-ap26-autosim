@@ -1,0 +1,4 @@
+Assessor re-runs: tau vs nDCG@5 over repeated passes (176 turns x 12 systems)
+persona@T0     cond_tau +0.721 +/- 0.014  raw_tau +0.570 +/- 0.014  (reps=5, min=+0.697 max=+0.727)
+persona@T0.7   cond_tau +0.667 +/- 0.000  raw_tau +0.515 +/- 0.000  (reps=5, min=+0.667 max=+0.667)
+nopersona@T0   cond_tau +0.788 +/- 0.000  raw_tau +0.636 +/- 0.000  (reps=3, min=+0.788 max=+0.788)

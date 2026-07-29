@@ -1,0 +1,42 @@
+{
+ "n": 299,
+ "self_containment_overlap_with_resolved": {
+  "real": {
+   "mean": 0.561,
+   "ci95": [
+    0.531,
+    0.591
+   ]
+  },
+  "default_sim": {
+   "mean": 0.231,
+   "ci95": [
+    0.212,
+    0.251
+   ]
+  },
+  "terse_prompt_sim": {
+   "mean": 0.189,
+   "ci95": [
+    0.172,
+    0.208
+   ]
+  },
+  "weight_sim": {
+   "mean": 0.507,
+   "ci95": [
+    0.477,
+    0.538
+   ]
+  }
+ },
+ "mean_words": {
+  "real": 12.1,
+  "default_sim": 28.3,
+  "terse_prompt_sim": 9.6,
+  "weight_sim": 12.6
+ },
+ "gap_to_real_default_sim": -0.33,
+ "gap_to_real_terse_prompt_sim": -0.372,
+ "gap_to_real_weight_sim": -0.054
+}

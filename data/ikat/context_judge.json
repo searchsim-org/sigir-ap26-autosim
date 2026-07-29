@@ -1,0 +1,91 @@
+{
+ "models": [
+  "qwen3-next-80b-a3b-instruct",
+  "gemma4-31b-it",
+  "qwen36-35b",
+  "qwen35-35b"
+ ],
+ "n_pairs": 60,
+ "results": {
+  "qwen3-next-80b-a3b-instruct": {
+   "default": {
+    "acc": 0.7,
+    "n": 30,
+    "ci95": [
+     0.536,
+     0.864
+    ],
+    "p_vs_chance": 0.028
+   },
+   "weight": {
+    "acc": 0.6,
+    "n": 30,
+    "ci95": [
+     0.425,
+     0.775
+    ],
+    "p_vs_chance": 0.273
+   }
+  },
+  "gemma4-31b-it": {
+   "default": {
+    "acc": 0.8,
+    "n": 30,
+    "ci95": [
+     0.657,
+     0.943
+    ],
+    "p_vs_chance": 0.001
+   },
+   "weight": {
+    "acc": 0.5,
+    "n": 30,
+    "ci95": [
+     0.321,
+     0.679
+    ],
+    "p_vs_chance": 1.0
+   }
+  },
+  "qwen36-35b": {
+   "default": {
+    "acc": NaN,
+    "n": 0
+   },
+   "weight": {
+    "acc": NaN,
+    "n": 0
+   }
+  },
+  "qwen35-35b": {
+   "default": {
+    "acc": NaN,
+    "n": 0
+   },
+   "weight": {
+    "acc": NaN,
+    "n": 0
+   }
+  }
+ },
+ "pooled": {
+  "default": {
+   "acc": 0.75,
+   "n": 60,
+   "ci95": [
+    0.64,
+    0.86
+   ],
+   "p_vs_chance": 0.0
+  },
+  "weight": {
+   "acc": 0.55,
+   "n": 60,
+   "ci95": [
+    0.424,
+    0.676
+   ],
+   "p_vs_chance": 0.439
+  }
+ }
+}

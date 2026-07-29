@@ -1,0 +1,5 @@
+Retrieval cost of behavioral realism (n=60 judged turns)
+  query     avg_words  BM25 nDCG@5  SPLADE nDCG@5
+  gold           15.0       0.2492         0.0000
+  default        37.1       0.0694         0.0000
+  evolved        10.9       0.0840         0.0000

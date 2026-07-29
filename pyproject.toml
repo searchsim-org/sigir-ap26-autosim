@@ -1,0 +1,20 @@
+[project]
+name = "autosim"
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2", "numpy", "scipy", "scikit-learn", "pyyaml", "opensearch-py"]
+
+[project.optional-dependencies]
+llm = ["anthropic", "openai"]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["autosim*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

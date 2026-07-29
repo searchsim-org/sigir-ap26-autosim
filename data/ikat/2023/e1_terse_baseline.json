@@ -1,0 +1,43 @@
+{
+ "real": {
+  "avg_words": 12.575,
+  "polite_frac": 0.025,
+  "short_frac": 0.075,
+  "n": 40
+ },
+ "default": {
+  "csg": 0.426,
+  "avg_words": 38.5,
+  "polite_frac": 0.175,
+  "short_frac": 0.0,
+  "style": "Write naturally as this user would."
+ },
+ "naive_terse": {
+  "csg": 0.804,
+  "avg_words": 11.8,
+  "polite_frac": 0.0,
+  "short_frac": 0.0,
+  "style": "Write a short, terse search message, about 12 words, and skip pleasantries."
+ },
+ "naive_keyword": {
+  "csg": 0.613,
+  "avg_words": 7.8,
+  "polite_frac": 0.0,
+  "short_frac": 0.0,
+  "style": "Reply like a real user typing fast: very brief, blunt, almost keyword-style."
+ },
+ "oracle_stats": {
+  "csg": 0.841,
+  "avg_words": 11.5,
+  "polite_frac": 0.025,
+  "short_frac": 0.0,
+  "style": "Average about 13 words per message. About 2% of the time include polite phrasing. About 8% of the time use a very short phrase of 3 words or fewer."
+ },
+ "loop_final": {
+  "csg": 0.675,
+  "avg_words": 12.2,
+  "polite_frac": 0.2,
+  "short_frac": 0.0,
+  "style": "Average 14 words per message. Occasionally include polite phrasing (approx. 10% of the time) and occasionally use very short, terse phrases of 3 words or fewer (approx. 8% of the time)."
+ }
+}

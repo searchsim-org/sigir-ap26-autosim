@@ -1,0 +1,56 @@
+{
+ "n": 157,
+ "real_fail_rate": 0.86,
+ "masking": {
+  "default_sim": {
+   "succeeds_on_real_fail_%": 0.57,
+   "mean_ndcg_on_real_fail": 0.13
+  },
+  "terse_prompt_sim": {
+   "succeeds_on_real_fail_%": 0.474,
+   "mean_ndcg_on_real_fail": 0.092
+  },
+  "weight_sim": {
+   "succeeds_on_real_fail_%": 0.141,
+   "mean_ndcg_on_real_fail": 0.036
+  }
+ },
+ "shipit": {
+  "bar_0.05": {
+   "real": {
+    "mean": 0.033,
+    "verdict": "FAIL"
+   },
+   "default_sim": {
+    "mean": 0.136,
+    "verdict": "PASS"
+   },
+   "terse_prompt_sim": {
+    "mean": 0.09,
+    "verdict": "PASS"
+   },
+   "weight_sim": {
+    "mean": 0.047,
+    "verdict": "FAIL"
+   }
+  },
+  "bar_0.1": {
+   "real": {
+    "mean": 0.033,
+    "verdict": "FAIL"
+   },
+   "default_sim": {
+    "mean": 0.136,
+    "verdict": "PASS"
+   },
+   "terse_prompt_sim": {
+    "mean": 0.09,
+    "verdict": "FAIL"
+   },
+   "weight_sim": {
+    "mean": 0.047,
+    "verdict": "FAIL"
+   }
+  }
+ }
+}

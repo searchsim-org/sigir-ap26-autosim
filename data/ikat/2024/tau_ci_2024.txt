@@ -1,0 +1,17 @@
+=== condensed nDCG@5 (N=12 systems) ===
+  Kendall tau-b              = +0.909
+  asymptotic p               = 0.0000
+  permutation p (R=2e5)      = 0.0000
+  system-level bootstrap 95% CI on tau = [+0.729, +1.000]
+  leave-one-out tau          = [+0.891, +0.927] (mean +0.909)
+=== raw nDCG@5 (N=12 systems) ===
+  Kendall tau-b              = +0.848
+  asymptotic p               = 0.0000
+  permutation p (R=2e5)      = 0.0000
+  system-level bootstrap 95% CI on tau = [+0.655, +1.000]
+  leave-one-out tau          = [+0.818, +0.891] (mean +0.848)
+=== leave-one-factor-out (condensed nDCG@5) ===
+  no rerank (8 sys)      N= 8  tau=+0.929 (p=0.000)
+  no ptkb   (8 sys)      N= 8  tau=+0.929 (p=0.000)
+  no raw    (10 sys)     N=10  tau=+0.911 (p=0.000)
+  resolved+rerank only   N= 6  tau=+0.867 (p=0.017)

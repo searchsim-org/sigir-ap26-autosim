@@ -1,0 +1,7 @@
+Style table with CIs + tests (n=80 held-out turns)
+  real (human)     avg_words= 11.7 [9.9,13.6]  polite%=  22  short%=  10
+  AutoSim default  avg_words= 38.6 [36.1,40.9]  polite%=  24  short%=   0
+  AutoSim evolved  avg_words= 11.8 [11.0,12.7]  polite%=  41  short%=   0
+  word-length distribution tests:
+    real vs evolved : KS D=0.275 p=0.005  perm mean-diff p=0.888  (evolved differs from human)
+    real vs default : KS D=0.813 p=0.0000  perm mean-diff p=0.0000  (default differs from human)

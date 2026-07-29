@@ -1,0 +1,20 @@
+# Core: simulator, analysis, figures. Python 3.11+.
+pydantic>=2
+numpy
+scipy
+scikit-learn
+pyyaml
+opensearch-py
+httpx
+matplotlib
+
+# --- Cross-corpus retrieval (RQ1 CAsT 2020). Also needs a JVM: set JAVA_HOME. ---
+# ir_datasets
+# pyserini
+
+# --- Weight-level self-improvement (RQ2, GPU). ---
+# torch
+# transformers
+# peft
+# accelerate
+# sentence-transformers
