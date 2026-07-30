@@ -21,7 +21,7 @@
 >
 > **Who is it for?** IR researchers evaluating conversational or interactive systems, and practitioners who want a user simulator whose realism is measured against real users.
 
-**Contents:** [Abstract](#abstract) · [Highlights](#highlights) · [Citation](#citation) · [Quick Start](#quick-start) · [Reproduce the paper](#reproduce-the-paper) · [Framework](#framework) · [Models](#models) · [Human study](#human-study) · [Data](#data) · [Anonymization](#anonymization) · [License](#license)
+**Contents:** [Abstract](#abstract) · [Highlights](#highlights) · [Citation](#citation) · [Quick Start](#quick-start) · [Reproduce the paper](#reproduce-the-paper) · [Framework](#framework) · [Models](#models) · [Human study](#human-study) · [Data](#data) · [License](#license)
 
 ## Abstract
 
@@ -80,7 +80,7 @@ The `autosim` package is the simulator and its self-improvement loop.
 | Metrics | `autosim/metrics/` | the sim-to-real gap (`csg.py`), the real-versus-simulated discriminator (`discriminator.py`), ranking agreement, and behavioral distributions |
 | Retrieval | `autosim/retrieval/` | BM25, SPLADE, reciprocal-rank fusion, and cross-encoder reranking over OpenSearch |
 | Evaluation | `autosim/eval/` | the LLM relevance assessor and TREC metrics (nDCG, Kendall τ) |
-| LLM clients | `autosim/llm/` | OpenAI-compatible gateway client (plus a fake for offline tests) |
+| LLM clients | `autosim/llm/` | OpenAI-compatible gateway client |
 | Data | `autosim/data/` | iKAT loaders and real-user trace adapters |
 
 ## Models
@@ -94,10 +94,6 @@ Three trained **weight-level** simulators (LoRA adapters) live under [`models/`]
 ## Data
 
 [`data/`](data/) holds derived result files (per-turn behavioral analyses, per-year system-ranking outputs, and the qrels subset for the bias test), not raw corpora. TREC iKAT, ClueWeb22-B, CAsT 2020, and MS MARCO come from their official sources; see [`data/README.md`](data/README.md).
-
-## Anonymization
-
-This snapshot is prepared for anonymous review: no author identity, institution endpoints read from the environment, and no secrets committed. [`ANONYMIZATION.md`](ANONYMIZATION.md) records what was withheld and lists every `TODO(camera-ready)` to restore for the public release.
 
 ## License
 
