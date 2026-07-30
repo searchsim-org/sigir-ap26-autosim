@@ -2,14 +2,14 @@
 
 # AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation
 
-### A conversational-search user simulator whose realism is measured, then made to pay off in evaluation validity
+### Framework, protocol, and models for a self-improving conversational-search user simulator
 
 *A user simulator that self-improves against real users, and code to test whether that self-improvement makes it a more accurate IR evaluator.*
 
 [![SIGIR-AP 2026](https://img.shields.io/badge/SIGIR--AP_2026-Under_double--blind_review-1f6feb?style=flat-square)](#citation)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776ab?style=flat-square)](#quick-start)
-[![Anon code](https://img.shields.io/badge/code-anonymous.4open.science-6f42c1?style=flat-square)](https://anonymous.4open.science/r/autosim-XXXX)
+[![Anon code](https://img.shields.io/badge/code-anonymous.4open.science-6f42c1?style=flat-square)](https://anonymous.4open.science/r/autosim-4876)
 
 ![Real-versus-simulated discriminator AUC for four simulator configurations on held-out iKAT: default prompt, tuned prompt, few-shot prompt, and weight-level fine-tuning, each scored by an embedding discriminator and a fine-tuned XLM-RoBERTa discriminator. Every prompt configuration stays at AUC 0.81 to 0.94; only weight-level fine-tuning reaches 0.5, where simulated and real utterances are indistinguishable.](images/fig1_substrate.png)
 
@@ -19,7 +19,7 @@
 
 > **What is this?** Simulating users is the standard way to compare conversational search systems without a human study for every design choice, but a simulator is only trustworthy if its behavior matches real users. AutoSim is a conversational-search user simulator that self-improves against a held-out signal from real users. This repository releases the framework, the evaluation protocol, and the trained weight-level models behind the paper.
 >
-> **Who is it for?** IR researchers evaluating conversational or interactive systems, and practitioners who want a user simulator whose realism is measured rather than assumed.
+> **Who is it for?** IR researchers evaluating conversational or interactive systems, and practitioners who want a user simulator whose realism is measured against real users.
 
 **Contents:** [Abstract](#abstract) · [Highlights](#highlights) · [Citation](#citation) · [Quick Start](#quick-start) · [Reproduce the paper](#reproduce-the-paper) · [Framework](#framework) · [Models](#models) · [Human study](#human-study) · [Data](#data) · [Anonymization](#anonymization) · [License](#license)
 
@@ -31,13 +31,13 @@
 
 ## Highlights
 
-- **A validated evaluator.** AutoSim's persona-conditioned relevance judgments rank a controlled pool of IR systems in agreement with NIST across three iKAT years (Kendall τ = 0.66 / 0.91 / 0.91, all p ≤ 0.002), and the agreement comes from the judgments, not the persona.
-- **Prompting is not enough; weights are.** No prompt we tried (hand-written, tuned, or few-shot) lowers a held-out real-versus-simulated discriminator below AUC 0.85. Weight-level fine-tuning drives it to about 0.5, where no classifier, no LLM judge, and no human reading full dialogues (8 of 30) can tell the simulator from a real user.
+- **A validated evaluator.** AutoSim's persona-conditioned relevance judgments rank a controlled pool of IR systems in agreement with NIST across three iKAT years (Kendall τ = 0.66 / 0.91 / 0.91, all p ≤ 0.002), and the agreement survives removing the persona.
+- **Closing the gap needs weight-level training.** No prompt we tried (hand-written, tuned, or few-shot) lowers a held-out real-versus-simulated discriminator below AUC 0.85. Weight-level fine-tuning drives it to about 0.5, where no classifier, no LLM judge, and no human reading full dialogues (8 of 30) can tell the simulator from a real user.
 - **Realism changes the evaluation.** Where real users retrieve little, a prompt simulator over-estimates retrieval effectiveness by +0.136 nDCG and returns a relevant passage on 57% of the turns where real users find none. The weight-level simulator is not detectably biased.
 
 ## Quick Start
 
-Requires Python 3.11+. For the double-blind period, download the browsable snapshot from the [anonymous.4open.science link](https://anonymous.4open.science/r/autosim-XXXX); the `git clone` URL is restored at camera-ready.
+Requires Python 3.11+. For the double-blind period, download the browsable snapshot from the [anonymous.4open.science link](https://anonymous.4open.science/r/autosim-4876); the `git clone` URL is restored at camera-ready.
 
 ```bash
 pip install -e .            # or: pip install -r requirements.txt
@@ -63,10 +63,10 @@ Each research question maps to entry points under `scripts/` and `experiments/`;
 
 | Result | Entry points |
 |---|---|
-| **RQ1 — validity** (τ across iKAT years, CIs, persona-free check, cross-corpus) | `scripts/sim2real_tau.py`, `scripts/pool14_tau.py`, `scripts/tau_ci.py`, `scripts/reassess_backbone.py`, `scripts/cast_crosscorpus_v4.py` |
-| **RQ2 — prompt vs. weight discriminator** (prompt-level self-improvement, weight-level training, LLM-judge and human probes) | `scripts/self_improve_behavior.py`, `scripts/e1_discriminator.py`, `experiments/exp_ikat_weight.py`, `scripts/frontier_disc.py` |
-| **RQ2 — behavioral axes** (retrieval overlap, conversational moves, query–need alignment) | `scripts/retrieval_overlap.py`, `scripts/dialogue_act.py`, `scripts/ellipsis_axis.py` |
-| **RQ3 — evaluation bias** (effectiveness over-estimate on hard turns) | `scripts/consequential_bias.py` |
+| **RQ1: validity** (τ across iKAT years, CIs, persona-free check, cross-corpus) | `scripts/sim2real_tau.py`, `scripts/pool14_tau.py`, `scripts/tau_ci.py`, `scripts/reassess_backbone.py`, `scripts/cast_crosscorpus_v4.py` |
+| **RQ2: prompt vs. weight discriminator** (prompt-level self-improvement, weight-level training, LLM-judge and human probes) | `scripts/self_improve_behavior.py`, `scripts/e1_discriminator.py`, `experiments/exp_ikat_weight.py`, `scripts/frontier_disc.py` |
+| **RQ2: behavioral axes** (retrieval overlap, conversational moves, query–need alignment) | `scripts/retrieval_overlap.py`, `scripts/dialogue_act.py`, `scripts/ellipsis_axis.py` |
+| **RQ3: evaluation bias** (effectiveness over-estimate on hard turns) | `scripts/consequential_bias.py` |
 | **Figures** | `scripts/make_figures.py` |
 
 ## Framework
