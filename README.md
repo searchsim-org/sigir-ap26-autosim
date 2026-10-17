@@ -55,7 +55,7 @@ If you use AutoSim, its protocol, or its models, please cite the paper:
 }
 ```
 
-**ACM Reference Format:** Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer. 2026. AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation. In *Proceedings of the 2026 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2026), December 13–15, 2026, Singapore, Singapore.* ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/3848000.3850196
+**ACM Reference Format:** Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer. 2026. AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation. In *Proceedings of the 2026 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2026), December 13–15, 2026, Singapore, Singapore.* ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/3848000.3850196
 
 GitHub's "Cite this repository" button in the sidebar reads the same record from [`CITATION.cff`](CITATION.cff).
 
