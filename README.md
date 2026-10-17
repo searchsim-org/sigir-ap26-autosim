@@ -13,7 +13,7 @@
 
 ![Real-versus-simulated discriminator AUC for four simulator configurations on held-out iKAT: default prompt, tuned prompt, few-shot prompt, and weight-level fine-tuning, each scored by an embedding discriminator and a fine-tuned XLM-RoBERTa discriminator. Every prompt configuration stays at AUC 0.81 to 0.94; only weight-level fine-tuning reaches 0.5, where simulated and real utterances are indistinguishable.](images/fig1_substrate.png)
 
-**[Saber Zerhoudi](mailto:szerhoudi@acm.org), Jelena Mitrović, Michael Granitzer**<br>
+**[Saber Zerhoudi](mailto:szerhoudi@acm.org), Jelena Mitrovic, Michael Granitzer**<br>
 University of Passau &nbsp;·&nbsp; Interdisciplinary Transformation University Austria<br>
 Published at **SIGIR-AP 2026**, Singapore, December 13–15, 2026 &nbsp;·&nbsp; [Read the paper](https://doi.org/10.1145/3848000.3850196)
 
@@ -43,7 +43,7 @@ If you use AutoSim, its protocol, or its models, please cite the paper:
 
 ```bibtex
 @inproceedings{Zerhoudi:2026:SIGIR-AP,
-  author    = {Saber Zerhoudi and Jelena Mitrovi{\'{c}} and Michael Granitzer},
+  author    = {Saber Zerhoudi and Jelena Mitrovic and Michael Granitzer},
   title     = {{AutoSim}: A Self-Improving User Simulator for Conversational Search
                Evaluation},
   booktitle = {Proceedings of the 2026 Annual International {ACM} {SIGIR} Conference on
@@ -55,7 +55,7 @@ If you use AutoSim, its protocol, or its models, please cite the paper:
 }
 ```
 
-**ACM Reference Format:** Saber Zerhoudi, Jelena Mitrović, and Michael Granitzer. 2026. AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation. In *Proceedings of the 2026 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2026), December 13–15, 2026, Singapore, Singapore.* ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/3848000.3850196
+**ACM Reference Format:** Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer. 2026. AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation. In *Proceedings of the 2026 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2026), December 13–15, 2026, Singapore, Singapore.* ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/3848000.3850196
 
 GitHub's "Cite this repository" button in the sidebar reads the same record from [`CITATION.cff`](CITATION.cff).
 
@@ -130,4 +130,4 @@ Three trained **weight-level** simulators (LoRA adapters) live under [`models/`]
 
 ## License
 
-Released under the [MIT License](LICENSE). Copyright (c) 2026 Saber Zerhoudi, Jelena Mitrović, and Michael Granitzer.
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer.

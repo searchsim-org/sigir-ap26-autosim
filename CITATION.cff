@@ -16,7 +16,7 @@ authors:
     email: szerhoudi@acm.org
     orcid: "https://orcid.org/0000-0003-2259-0462"
     affiliation: "University of Passau"
-  - family-names: Mitrović
+  - family-names: Mitrovic
     given-names: Jelena
     orcid: "https://orcid.org/0000-0003-3220-8749"
     affiliation: "University of Passau"
@@ -30,7 +30,7 @@ preferred-citation:
   authors:
     - family-names: Zerhoudi
       given-names: Saber
-    - family-names: Mitrović
+    - family-names: Mitrovic
       given-names: Jelena
     - family-names: Granitzer
       given-names: Michael
