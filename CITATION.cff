@@ -4,21 +4,44 @@ title: "AutoSim: A Self-Improving User Simulator for Conversational Search Evalu
 type: software
 version: "0.0.1"
 license: MIT
+repository-code: "https://github.com/searchsim-org/sigir-ap26-autosim"
 keywords:
   - user simulation
   - conversational search
-  - information retrieval evaluation
+  - evaluation
   - self-improving agents
-  - evaluation bias
-# TODO(camera-ready): replace the anonymous author entity with the real author list
-# (family-names / given-names), and add repository-code, doi, and url.
 authors:
-  - name: "Anonymous Author(s)"
+  - family-names: Zerhoudi
+    given-names: Saber
+    email: szerhoudi@acm.org
+    orcid: "https://orcid.org/0000-0003-2259-0462"
+    affiliation: "University of Passau"
+  - family-names: Mitrović
+    given-names: Jelena
+    orcid: "https://orcid.org/0000-0003-3220-8749"
+    affiliation: "University of Passau"
+  - family-names: Granitzer
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0003-3566-5507"
+    affiliation: "Interdisciplinary Transformation University Austria; University of Passau"
 preferred-citation:
   type: conference-paper
   title: "AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation"
   authors:
-    - name: "Anonymous Author(s)"
-  collection-title: "Proceedings of SIGIR-AP 2026 (under review)"
+    - family-names: Zerhoudi
+      given-names: Saber
+    - family-names: Mitrović
+      given-names: Jelena
+    - family-names: Granitzer
+      given-names: Michael
+  collection-title: "Proceedings of the 2026 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2026)"
+  conference:
+    name: "SIGIR-AP 2026"
+    location: "Singapore"
+    date-start: "2026-12-13"
+    date-end: "2026-12-15"
   year: 2026
-  notes: "Under double-blind review; author list and DOI withheld until camera-ready."
+  publisher:
+    name: "ACM"
+  doi: 10.1145/3848000.3850196
+  url: "https://doi.org/10.1145/3848000.3850196"
